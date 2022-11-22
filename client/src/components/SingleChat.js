@@ -20,7 +20,7 @@ import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 
 import io from "socket.io-client";
-const ENDPOINT = "127.0.0.1:3000";
+const ENDPOINT = "https://talk-a-tive-api.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
